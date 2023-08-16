@@ -3,6 +3,8 @@
     height: 24px;
     background-image: url(../imagens/Menu.svg.png);
     display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .cabecalho{
     background-color: var(--branco);
@@ -11,5 +13,14 @@
 } 
 .div-1{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
+h1{
+    display: none;
+}
+@media screen and
+    
+}
+
+
+
