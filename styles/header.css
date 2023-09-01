@@ -19,10 +19,10 @@
 }
 
 h1{
-    display: none;
+  display: none;
 }
 
-@media screen and(min-width:1024px)
+@media screen and(min-width:1024px){
   h1 {
  font-size: 30px;
  display: block;
