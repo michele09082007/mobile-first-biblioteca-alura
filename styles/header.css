@@ -30,7 +30,6 @@ h1{
  
 }  
 
-.lista-menu{
- display: block
-}
-.div-menu:checked-. lista-menu{}
+.lista-menu:checked.lista-menu
+
+
