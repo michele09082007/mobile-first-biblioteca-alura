@@ -11,6 +11,8 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 } 
 
 .div-1{
@@ -22,14 +24,12 @@ h1{
   display: none;
 }
 
-@media screen and(min-width:1024px){
-  h1 {
- font-size: 30px;
- display: block;
-  }
- 
-}  
+.lista-menu{
+display: block;
+position: absolute;
+top:100%;
+}
 
-.lista-menu:checked.lista-menu
-
-
+@media screen and () {
+  
+}
