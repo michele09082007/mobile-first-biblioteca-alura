@@ -24,12 +24,6 @@ h1{
   display: none;
 }
 
-.lista-menu{
-display: block;
-position: absolute;
-top:100%;
-}
-
-@media screen and () {
-  
+.div-menu:checked~.lista menu {
+   display:block; 
 }
