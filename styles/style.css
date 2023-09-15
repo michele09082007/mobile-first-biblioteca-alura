@@ -2,8 +2,9 @@
 
 :root{
     --cor-de-fundo: #EBECEE;
-    --branco:#FFFFFF;
     --fonte-principal: "Poppins";
+    --amarelo:#FECD2F;
+    --roxo:#733887
 }
 body{
 background-color: var(--cor-de-fundo);
@@ -13,5 +14,5 @@ font-weight: 400;
 }
 
 h1{
-background-color:write;
+background-color:white;
 }
