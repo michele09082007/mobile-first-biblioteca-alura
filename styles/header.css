@@ -40,4 +40,19 @@ background-color: var(--branco);
 .lista-menu-link{
     background: var(--roxo);
     background-clip: text;
+    text-transform: uppercase;
+}
+@media screen and (min-width:1024px) {
+h1{
+    display:block;
+    font-size:30px;
+}
+
+} 
+lista-menu{
+    display:none;
+}
+
+.div-menu:checked~.lista-menu{
+    display:block;
 }
