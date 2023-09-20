@@ -39,20 +39,28 @@ background-color: var(--branco);
 }
 .lista-menu-link{
     background: var(--roxo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
 }
-@media screen and (min-width:1024px) {
+
+div-menu{
+    display: none;
+}
+
+@media screen and (min-width:1024px){
 h1{
     display:block;
-    font-size:30px;
-}
+    font-size: 30px;
 
-} 
-lista-menu{
+}
+}
+.lista-menu{
     display:none;
-}
 
-.div-menu:checked~.lista-menu{
-    display:block;
 }
+.div-menu:checked
+    
+
+
